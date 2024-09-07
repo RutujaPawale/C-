@@ -15,3 +15,6 @@ int main()
     cin>>num1;
     cout<<"Enter second number:"<<endl;
     cin>>num2;
+    cout<<"Product is:"<<product(num1,num2);
+    return 0;
+}
