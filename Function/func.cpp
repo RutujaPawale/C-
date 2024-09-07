@@ -6,3 +6,8 @@ int sum(int a,int b)
     int c=a+b;
     return c;
 }
+
+int main()
+{
+    int num1, num2;
+    cout<<"Enter first number:"<<endl;
