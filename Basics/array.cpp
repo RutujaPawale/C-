@@ -8,3 +8,7 @@ int main()
     int mathmarks[4]={53,68,24,48};
     mathmarks[1]=99;
     cout<<mathmarks[1]<<endl;
+
+    int* p=marks;
+    cout<<"Marks:"<<*p<<endl;
+    cout<<"Marks:"<<*(p+1)<<endl;
