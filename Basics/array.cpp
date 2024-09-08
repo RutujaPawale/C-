@@ -12,3 +12,6 @@ int main()
     int* p=marks;
     cout<<"Marks:"<<*p<<endl;
     cout<<"Marks:"<<*(p+1)<<endl;
+    cout<<"Marks:"<<*(p+2)<<endl;
+    cout<<"Marks:"<<*(p+3)<<endl;
+}
