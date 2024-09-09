@@ -15,3 +15,7 @@ class Shop
 void Shop::setPrice(void){
     cout<<"Enter id of item "<<counter+1<<endl;
     cin>>itemId[counter];
+    cout<<"Enter price if item "<<endl;
+    cin>>itemPrice[counter];
+    counter++;
+}
