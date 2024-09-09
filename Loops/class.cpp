@@ -30,3 +30,6 @@ int main()
 {
     Shop s;
     s.initCounter();
+    s.setPrice();
+    s.setPrice();
+    s.setPrice();
