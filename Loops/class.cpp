@@ -33,3 +33,6 @@ int main()
     s.setPrice();
     s.setPrice();
     s.setPrice();
+    s.displayPrice();
+    return 0;
+}
