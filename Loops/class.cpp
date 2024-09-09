@@ -19,3 +19,5 @@ void Shop::setPrice(void){
     cin>>itemPrice[counter];
     counter++;
 }
+void Shop::displayPrice(void){
+    for(int i=0;i<counter;i++)
