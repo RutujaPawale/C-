@@ -11,3 +11,7 @@ class Shop
         void setPrice(void);
         void displayPrice(void);
 };
+
+void Shop::setPrice(void){
+    cout<<"Enter id of item "<<counter+1<<endl;
+    cin>>itemId[counter];
