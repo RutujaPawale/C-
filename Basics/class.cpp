@@ -19,3 +19,7 @@ void Shop::displayPrice(void){
         cout<<"The price of "<<itemId[i]<<" is "<<itemPrice[i]<<endl;
     }
 }
+
+int main()
+{
+    Shop s;
