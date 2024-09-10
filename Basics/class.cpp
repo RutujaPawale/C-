@@ -8,3 +8,6 @@ class Shop
         int itemPrice[100];
         int counter;
         void initCounter(void){counter=0;}
+        void setPrice(void);
+        void displayPrice(void);
+};
