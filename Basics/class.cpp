@@ -15,3 +15,7 @@ class Shop
 void Shop::setPrice(void){
 void Shop::displayPrice(void){
     for(int i=0;i<counter;i++)
+    {
+        cout<<"The price of "<<itemId[i]<<" is "<<itemPrice[i]<<endl;
+    }
+}
