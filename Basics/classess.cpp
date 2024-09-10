@@ -15,3 +15,6 @@ class Employee
             cout<<"The value of c is "<<c<<endl;
             cout<<"The value of d is "<<d<<endl;
             cout<<"The value of e is "<<e<<endl;
+        }
+};
+void Employee::setData(int a1,int b1,int c1)
