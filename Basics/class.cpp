@@ -26,3 +26,7 @@ int main()
     s.initCounter();
     s.setPrice();
     s.setPrice();
+    s.setPrice();
+    s.displayPrice();
+    return 0;
+}
