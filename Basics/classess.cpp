@@ -28,3 +28,7 @@ int main()
     Employee rutu;
     rutu.d=33;
     rutu.e=48;
+    rutu.setData(1,2,5);
+    rutu.getData();
+    return 0;
+}
