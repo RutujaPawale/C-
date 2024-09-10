@@ -23,3 +23,8 @@ void Employee::setData(int a1,int b1,int c1)
     b=b1;
     c=c1;
 }
+int main()
+{
+    Employee rutu;
+    rutu.d=33;
+    rutu.e=48;
