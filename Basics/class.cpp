@@ -23,3 +23,6 @@ void Shop::displayPrice(void){
 int main()
 {
     Shop s;
+    s.initCounter();
+    s.setPrice();
+    s.setPrice();
